@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
    res.send({'hi': 'there'})
 });
 
-const server = app.listen(process.env.PORT || 5000, () => {
+const server = app.listen(process.env.PORT || 8080, () => {
     const host = server.address().address;
     const port = server.address().port;
 

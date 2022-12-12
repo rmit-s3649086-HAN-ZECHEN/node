@@ -9,7 +9,7 @@
   "author": "Han",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "dependencies": {
     "mongodb": "^3.5.7"
